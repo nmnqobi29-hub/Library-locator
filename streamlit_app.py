@@ -1,9 +1,4 @@
-"""
-Student-facing search screen for the Library Locator MVP.
 
-Run with: streamlit run streamlit_app.py
-(the FastAPI backend must be running separately: uvicorn main:app --reload)
-"""
 
 import os
 

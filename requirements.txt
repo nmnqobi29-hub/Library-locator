@@ -3,4 +3,4 @@ uvicorn[standard]
 sqlalchemy
 streamlit
 requests
-psycopg2-binary
+psycopg[binary]

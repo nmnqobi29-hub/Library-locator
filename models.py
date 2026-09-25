@@ -1,13 +1,4 @@
-"""
-Database models for the Library Locator MVP.
 
-Two tables:
-- Book: sample catalog records (title, author, call_number, category)
-- ShelfRange: maps a call-number range to a physical shelf location
-
-In the real version, `Book` data would come from the library's own
-catalog/API instead of living in your own database.
-"""
 
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import declarative_base

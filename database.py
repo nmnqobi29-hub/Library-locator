@@ -1,14 +1,3 @@
-"""
-Database connection setup.
-
-Uses SQLite by default so the demo runs with zero setup. To point this
-at Postgres later (e.g. on Railway), just set the DATABASE_URL
-environment variable, e.g.:
-
-    postgresql://user:password@host:port/dbname
-
-No other code needs to change.
-"""
 
 import os
 

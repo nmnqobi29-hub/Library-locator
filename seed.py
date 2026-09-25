@@ -1,14 +1,4 @@
-"""
-Seeds the database with sample books and shelf ranges so the demo has
-something to search. Run once with: python seed.py
 
-Uses Dewey Decimal call numbers (classification number + author
-cutter, e.g. "005.1 MAR"), matching the system CPUT Libraries
-actually uses. Titles/authors below are real, well-known texts in
-each subject area — but the exact call numbers are illustrative, not
-copied from CPUT's live catalog (which requires a student login to
-search). Swap in your own once you've looked a few up in Primo.
-"""
 
 from database import SessionLocal, init_db
 from models import Book, ShelfRange
